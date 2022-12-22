@@ -1,4 +1,4 @@
-module github.com/databricks/databricks-sdk-go
+module github.com/hsubbaraj-spiral/databricks-sdk-go
 
 go 1.16
 
