@@ -8,15 +8,6 @@ import (
 
 type Config config.Config
 
-// Must panics if error is not nil. It's intended to be used with
-// [databricks.NewWorkspaceClient] and [databricks.NewAccountClient].
-func Must[T any](c T, err error) T {
-	if err != nil {
-		panic(err)
-	}
-	return c
-}
-
 // Version of this SDK
 func Version() string {
 	return version.Version
